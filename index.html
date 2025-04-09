@@ -512,55 +512,7 @@
     height: 130px; 
     width: auto; 
     margin-right: 10px; 
-            /* FAQ */
-        .faq-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .faq-item {
-            background: var(--white);
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: var(--shadow);
-            overflow: hidden;
-        }
-
-        .faq-question {
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            font-weight: 600;
-            color: var(--dark-color);
-            transition: background 0.3s;
-        }
-
-        .faq-question:hover {
-            background: var(--light-color);
-        }
-
-        .faq-question i {
-            transition: transform 0.3s;
-        }
-
-        .faq-item.active .faq-question i {
-            transform: rotate(180deg);
-        }
-
-        .faq-answer {
-            padding: 0 20px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease-out, padding 0.3s ease;
-        }
-
-        .faq-item.active .faq-answer {
-            padding: 0 20px 20px;
-            max-height: 500px;
-        }
-}
+/*           */
         
     </style>
 </head>
@@ -682,49 +634,7 @@
         </div>
     </section>
 
-    <section id="faq">
-        <div class="container">
-            <h2>Questions fréquentes</h2>
-            <div class="faq-container">
-                <div class="faq-item fade-in">
-                    <div class="faq-question">
-                        <span>Comment BioHealth personnalise-t-il les recommandations ?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Notre algorithme d'IA analyse vos réponses au questionnaire initial, vos préférences alimentaires, vos objectifs de santé, vos restrictions éventuelles et même votre localisation pour proposer des recommandations parfaitement adaptées à votre situation.</p>
-                    </div>
-                </div>
-                <div class="faq-item fade-in delay-1">
-                    <div class="faq-question">
-                        <span>Les consultations avec les nutritionnistes sont-elles incluses ?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>L'application de base propose des recommandations automatisées. Les consultations avec des nutritionnistes certifiés sont un service premium disponible par abonnement ou à la séance.</p>
-                    </div>
-                </div>
-                <div class="faq-item fade-in delay-2">
-                    <div class="faq-question">
-                        <span>Puis-je utiliser BioHealth pour perdre du poids ?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Absolument ! BioHealth est particulièrement efficace pour les personnes souhaitant perdre ou prendre du poids de manière saine. L'application vous propose un plan nutritionnel adapté à votre métabolisme et suit vos progrès.</p>
-                    </div>
-                </div>
-                <div class="faq-item fade-in delay-3">
-                    <div class="faq-question">
-                        <span>Comment gérez-vous la confidentialité de mes données ?</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>La confidentialité de vos données est notre priorité. Toutes vos informations sont cryptées et stockées de manière sécurisée. Nous ne partageons jamais vos données personnelles avec des tiers sans votre consentement explicite.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
     <footer id="contact">
         <div class="container">
             <div class="footer-content">
